@@ -24,11 +24,10 @@ namespace FizzBuzz.Library.Tests
         }
 
         [Test]
-        public void Buzzer_When2_Returns2([Values(2)] int input)
+        public void Buzzer_WhenDefault_ReturnsInput([Values(2)] int input)
         {
-            int input = 2;
             string output = FizzBuzzer.GetValue(input);
-            Assert.AreEqual("2", output);
+            Assert.AreEqual(input.ToString(), output);
         }
 
         [Test]
