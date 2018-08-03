@@ -32,10 +32,10 @@ namespace FizzBuzz.Library.Tests
             Assert.AreEqual("Fizz", output);
         }
         [Test]
-        public void Buzzer_When5_ReturnsBuzz()
+        public void Buzzer_When5_ReturnsBuzz([Values(5, 10)] int input)
         {
             // Arrange
-            int input = 5;
+            // int input = 5;
             // Act
             string output = FizzBuzzer.GetValue(input);
             // Assert
