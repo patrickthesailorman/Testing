@@ -24,7 +24,7 @@ namespace FizzBuzz.Library.Tests
         }
 
         [Test]
-        public void Buzzer_When2_Returns2()
+        public void Buzzer_When2_Returns2([Values(2)] int input)
         {
             int input = 2;
             string output = FizzBuzzer.GetValue(input);
