@@ -7,9 +7,15 @@ namespace FizzBuzz.Library.Tests
     public class FizzBuzzerTests
     {
         [Test]
-        public void SampleTest()
+        public void Buzzer_When1_returns1();
         {
-            Assert.pass();
+            // Arrange
+            int input = 1;
+
+            // Act
+            FizzBuzzer.GetValue(input);
+
+            // Assert
         }
     }
 }
