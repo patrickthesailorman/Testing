@@ -13,15 +13,19 @@ namespace FizzBuzz.Library.Tests
         [Test]
         public void Buzzer_WhenDefault_ReturnsInput([Values(1, 2, 4)] int input)
         {
+            // Arrange
+            
+            // Act
             string output = FizzBuzzer.GetValue(input);
+            // Assert
             Assert.AreEqual(input.ToString(), output);
         }
 
         [Test]
-        public void Buzzer_When3_ReturnsFizz()
+        public void Buzzer_WhenDiv3_ReturnsFizz([Values(3, 6)] int input)
         {
             // Arrange
-            int input = 3;
+            // int input = 3;
             // Act
             string output = FizzBuzzer.GetValue(input);
             // Assert
