@@ -20,6 +20,7 @@ namespace FizzBuzz.Library.Tests
             FizzBuzzer.GetValue(input);
 
             // Assert
+            Assert.AreEqual("1", output);
         }
     }
 }
