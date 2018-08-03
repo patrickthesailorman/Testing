@@ -22,7 +22,7 @@ namespace FizzBuzz.Library.Tests
         }
 
         [Test]
-        public void Buzzer_WhenDiv3_ReturnsFizz([Values(3, 6)] int input)
+        public void Buzzer_WhenDiv3_ReturnsFizz([Values(3, 6, 9)] int input)
         {
             // Arrange
             // int input = 3;
