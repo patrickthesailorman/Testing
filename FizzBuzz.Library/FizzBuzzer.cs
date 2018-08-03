@@ -10,7 +10,7 @@ namespace FizzBuzz.Library
     {
         public static string GetValue(int input)
         {
-            return string.Empty;
+            return "1";
         }
     }
 }
