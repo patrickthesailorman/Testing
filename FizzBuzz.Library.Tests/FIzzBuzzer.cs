@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace FizzbuzzTests
+namespace FizzBuzz.Library.Tests
 {
     public class Class1
     {
