@@ -24,7 +24,7 @@ namespace FizzBuzz.Library.Tests
         }
 
         [Test]
-        public void Buzzer_WhenDefault_ReturnsInput([Values(2)] int input)
+        public void Buzzer_WhenDefault_ReturnsInput([Values(1, 2, 4)] int input)
         {
             string output = FizzBuzzer.GetValue(input);
             Assert.AreEqual(input.ToString(), output);
