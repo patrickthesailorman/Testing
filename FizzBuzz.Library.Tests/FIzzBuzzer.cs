@@ -2,7 +2,7 @@
 
 namespace FizzBuzz.Library.Tests
 {
-    public class Class1
+    public class FizzBuzzerTests
     {
     }
 }
