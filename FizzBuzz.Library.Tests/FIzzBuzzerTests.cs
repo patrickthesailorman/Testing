@@ -31,6 +31,7 @@ namespace FizzBuzz.Library.Tests
             // Assert
             Assert.AreEqual("Fizz", output);
         }
+
         [Test]
         public void Buzzer_When5_ReturnsBuzz([Values(5, 10)] int input)
         {
@@ -40,6 +41,17 @@ namespace FizzBuzz.Library.Tests
             string output = FizzBuzzer.GetValue(input);
             // Assert
             Assert.AreEqual("Buzz", output);
+        }
+
+        [Test]
+        public void Buzzer_WhenDiv3AndDiv5_ReturnsFizzBuzz([Values(15)] int input)
+        {
+            // Arrange
+            
+            // Act
+            string output = FizzBuzzer.GetValue(input);
+            // Assert
+            Assert.AreEqual("FizzBuzz", output);
         }
     }
 }
