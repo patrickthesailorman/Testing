@@ -11,7 +11,7 @@ namespace FizzBuzz.Library.Tests
     public class FizzBuzzerTests
     {
         [Test]
-        public void Buzzer_WhenDefault_ReturnsInput([Values(1, 2, 4, 7, 8, 11, 13, 14)] int input)
+        public void Buzzer_WhenDefault_ReturnsInput([Values(1, 2, 4, 7, 8, 11, 13, 14, 16, 17)] int input)
         {
             // Arrange
             
